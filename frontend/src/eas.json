@@ -1,0 +1,29 @@
+{
+    "build": {
+      "preview": {
+        "android": {
+          "buildType": "apkDebug"
+        },
+        "ios": {
+          "buildType": "archive"
+        },
+        "web": {
+          "buildType": "build"
+        }
+      },
+      "preview2": {
+        "android": {
+          "gradleCommand": ":app:assembleRelease"
+        }
+      },
+      "preview3": {
+        "developmentClient": true
+      },
+      "production": {},
+      "image": {
+        "input": "assets/img",
+        "output": "assets/img"
+      }
+    }
+    
+  }

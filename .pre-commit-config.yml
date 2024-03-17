@@ -1,0 +1,11 @@
+- repo: https://github.com/prettier/prettier
+  rev: main
+  hooks:
+    - id: prettier
+      args: ['--write', './frontend/', './backend/']
+
+- repo: https://github.com/pre-commit/mirrors-eslint
+  rev: v7.32.0
+  hooks:
+    - id: eslint
+      args: ['--fix', './frontend/', './backend/']

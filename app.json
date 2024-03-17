@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "3c0d66f9-dd86-43a6-aad2-6345aba2a7d6"
+      }
+    },
+    "android": {
+      "package": "com.zabounet.my2u"
+    }
+  }
+}
